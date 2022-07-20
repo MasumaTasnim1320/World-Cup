@@ -188,3 +188,29 @@ main {
     text-align: center;
 
 }
+
+.color {
+    color: pink;
+}
+
+@media only screen and (min-width:690px) and (max-width:992px) {
+    .all-news {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .more {
+        display: inline;
+
+    }
+}
+
+@media only screen and (max-width:668px) {
+    .all-news {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .more {
+        display: block;
+    }
+}
