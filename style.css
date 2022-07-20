@@ -29,20 +29,22 @@ main {
     border: none;
     background-color: red;
     color: white;
-    width: 187px;
+    width: 180px;
     height: 56px;
     padding: 16px 25px;
     gap: 10px;
     margin: 10px;
+    margin-left: 20px;
     border-radius: 10px;
 }
 
 .button-white {
     border: none;
     background-color: white;
-    width: 187px;
+    width: 180px;
     height: 56px;
     margin: 10px;
+    margin-left: 20px;
     border-radius: 10px;
 }
 
@@ -51,19 +53,19 @@ main {
 .goalpost {
 
     width: 30em;
-    padding-left: 70%;
+    padding-left: 60%;
     margin-bottom: 40%;
 }
 
 .goalpost img {
-    width: 80rem;
+    width: 60rem;
 }
 
 .football {
     width: 80px;
     height: 70px;
     position: relative;
-    bottom: 300px;
+    bottom: 400px;
     transition: transform 0.5s ease-in-out 1s;
 }
 
@@ -72,12 +74,57 @@ main {
 }
 
 /* button option  */
+.container {
+    display: flex;
+    padding: 50px 80px;
+    margin-top: 25px;
+
+}
+
 .options {
     background-color: black;
-    position: absolute;
     width: 230px;
     height: 230px;
     left: 120px;
     top: 600px;
     border-radius: 30px;
+}
+
+.retire {
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.all-news {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+
+}
+
+.news {
+    width: 250px;
+    height: 300px;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+
+
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.news .news-banner img {
+    width: 250px;
+    height: 150px;
+}
+
+
+.news-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
 }
